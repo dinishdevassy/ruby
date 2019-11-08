@@ -16,6 +16,7 @@ app.use("/admin",adminrouter);
 
 app.listen("8080",function(req,res){
     console.log("Server started Listening...");
+    console.log("http://localhost:8080/");
 })
 mongoose.connect(url,function(err){
     if(err)
